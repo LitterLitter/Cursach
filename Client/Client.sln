@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialization", "..\Shared\Serialization\Serialization.csproj", "{4EB53D99-3383-4214-AACB-B7B18DA8511A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{14462166-8E2C-4672-9379-D98705CA8234}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatApp", "ChatApp\ChatApp.csproj", "{82DFC46E-5FD1-49BA-8D6D-DCAF8F7CFE97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EB53D99-3383-4214-AACB-B7B18DA8511A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EB53D99-3383-4214-AACB-B7B18DA8511A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EB53D99-3383-4214-AACB-B7B18DA8511A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EB53D99-3383-4214-AACB-B7B18DA8511A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82DFC46E-5FD1-49BA-8D6D-DCAF8F7CFE97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82DFC46E-5FD1-49BA-8D6D-DCAF8F7CFE97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82DFC46E-5FD1-49BA-8D6D-DCAF8F7CFE97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82DFC46E-5FD1-49BA-8D6D-DCAF8F7CFE97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4EB53D99-3383-4214-AACB-B7B18DA8511A} = {14462166-8E2C-4672-9379-D98705CA8234}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CFAC4A31-3B1D-4AE1-9648-390081BD1C43}
+	EndGlobalSection
+EndGlobal
